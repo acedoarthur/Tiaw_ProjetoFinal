@@ -1,24 +1,14 @@
-// Importa hooks do React
 import { useEffect, useState } from 'react'
-// Importa função para pegar parâmetros da URL
 import { useParams } from 'react-router-dom'
-// Importa o tipo Product
 import type { Product } from '../components/ProductCard'
-// Importa o hook do carrinho
 import { useCart } from '../contexts/CartContext'
 
-// Função da página de detalhes do produto
 export default function ProductDetails() {
-  // Pega o id do produto da URL
   const { id } = useParams()
-  // Estado para o produto exibido
   const [product, setProduct] = useState<Product | null>(null)
-  // Função para adicionar ao carrinho
   const { add } = useCart()
-  // Estado para mensagem de item adicionado
   const [addedMsg, setAddedMsg] = useState('')
 
-  // Busca o produto pelo id ao abrir a página
   useEffect(function () {
     fetch('/data/products.json')
       .then(function (r) { return r.json() })
@@ -35,22 +25,15 @@ export default function ProductDetails() {
       })
   }, [id])
 
-  // Se não encontrou o produto, mostra mensagem de carregando
   if (!product) return <p>Carregando...</p>
 
-  // Renderiza a página de detalhes do produto
   return (
     <section className="grid md:grid-cols-2 gap-6">
-      {/* Imagem do produto */}
       <img src={product.image} alt={product.name} className="w-full h-80 object-cover rounded" />
       <div>
-        {/* Nome do produto */}
         <h2 className="text-2xl md:text-3xl font-bold tracking-tight">{product.name}</h2>
-        {/* Descrição do produto */}
         <p className="mt-2 text-gray-700 leading-relaxed">{product.description}</p>
-        {/* Preço do produto */}
         <p className="mt-4 text-xl md:text-2xl font-semibold text-violet-700">R$ {product.price.toFixed(2)}</p>
-        {/* Botão para adicionar ao carrinho */}
         <button
           onClick={function () {
             add(product)
@@ -61,7 +44,6 @@ export default function ProductDetails() {
         >
           Adicionar ao Carrinho
         </button>
-        {/* Mensagem de item adicionado */}
         {(() => {
           if (addedMsg !== '') {
             return (

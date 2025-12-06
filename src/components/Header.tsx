@@ -1,22 +1,15 @@
-// Importa componentes de navegação do React Router
+
 import { Link, NavLink } from 'react-router-dom'
-// Importa useState para controlar o menu mobile
 import { useState } from 'react'
-// Importa o hook do carrinho
 import { useCart } from '../contexts/CartContext'
 
-// Função do cabeçalho do site
 export function Header() {
-  // Pega os itens do carrinho
   const { items } = useCart()
-  // Estado para saber se o menu mobile está aberto
   const [open, setOpen] = useState(false)
-  // Conta o total de itens no carrinho
   let count = 0
   for (let i = 0; i < items.length; i++) {
     count = count + items[i].qty
   }
-  // Renderiza o cabeçalho
   return (
     <header className="bg-violet-700 text-white">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">

@@ -1,6 +1,4 @@
-// Função do rodapé do site
 export function Footer() {
-  // Renderiza o rodapé
   return (
     <footer className="bg-gray-100">
       <div className="container mx-auto px-4 py-6 text-sm text-gray-600 flex items-center justify-between">

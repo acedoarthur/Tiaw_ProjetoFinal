@@ -1,27 +1,27 @@
-// Importa o componente Link do React Router para navegação entre páginas
+
 import { Link } from 'react-router-dom'
 
-// Define o tipo Product, que representa um produto
+
 export type Product = {
-  id: string // Identificador único do produto
-  name: string // Nome do produto
-  price: number // Preço do produto
-  description: string // Descrição do produto
-  image: string // Caminho da imagem do produto
-  category: string // Categoria do produto
+  id: string
+  name: string 
+  price: number 
+  description: string 
+  image: string 
+  category: string 
 }
 
-// Função que representa o cartão de um produto individual
+
 export default function ProductCard({ product }: { product: Product }) {
-  // Retorna o layout do cartão do produto
+  
   return (
-    // Div principal do cartão, com fundo branco, bordas arredondadas e sombra
+    
     <div className="bg-white rounded-lg shadow hover:shadow-md transition p-4">
       {/* Imagem do produto */}
       <img 
-        src={product.image} // Caminho da imagem do produto
-        alt={product.name} // Texto alternativo para acessibilidade
-        className="w-full h-44 object-cover rounded" // Estilização da imagem
+        src={product.image} 
+        alt={product.name} 
+        className="w-full h-44 object-cover rounded"
       />
       {/* Div para informações do produto */}
       <div className="mt-3">
