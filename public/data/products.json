@@ -1,0 +1,106 @@
+[
+  {
+    "id": "f1",
+    "name": "Fantasia Fada Arco-Íris",
+    "price": 149.90,
+    "description": "Vestido colorido com asas brilhantes e tiara mágica.",
+    "image": "https://m.media-amazon.com/images/I/61baqoXu4HL.jpg_BO30,255,255,255_UF900,850_SR1910,1000,0,C_QL100_.jpg",
+    "category": "Infantil"
+  },
+  {
+    "id": "f2",
+    "name": "Capa Mago Estelar Adulto",
+    "price": 99.90,
+    "description": "Capa longa com estampas de estrelas e lua.",
+    "image": "https://m.media-amazon.com/images/I/416r8G8CmhL._AC_SY350_.jpg",
+    "category": "Adulto"
+  },
+  {
+    "id": "a1",
+    "name": "Máscara Veneza Luxo",
+    "price": 19.90,
+    "description": "Máscara dourada com detalhes em renda.",
+    "image": "https://images.tcdn.com.br/img/img_prod/1042630/mascara_veneza_c_flor_lateral_dourada_fantasia_baile_309244_1_c709457756556a5062f1317bb5ef8fb8.jpg",
+    "category": "Acessórios"
+  },
+  {
+    "id": "a2",
+    "name": "Chapéu Bruxa Clássico",
+    "price": 29.90,
+    "description": "Chapéu preto com aba larga e acabamento fosco.",
+    "image": "https://images.tcdn.com.br/img/img_prod/759619/chapeu_cury_redomao_couracado_8x_preto_aba_10_2911_2_c7ec18d21f22c1cb7203eee59879ed10.jpg",
+    "category": "Acessórios"
+  },
+  {
+    "id": "f3",
+    "name": "Fantasia Pirata Infantil",
+    "price": 89.90,
+    "description": "Conjunto com colete, calça listrada, faixa e chapéu de pirata.",
+    "image": "https://images.tcdn.com.br/img/img_prod/1033276/fantasia_pirata_infantil_com_lenco_383_1_d4653b7828c8a8d900605633cf6ab317.jpg",
+    "category": "Infantil"
+  },
+  {
+    "id": "f4",
+    "name": "Fantasia Princesa Azul",
+    "price": 199.90,
+    "description": "Vestido longo azul com detalhes brilhantes e coroa.",
+    "image": "https://m.media-amazon.com/images/I/613Qk6rvbsL._AC_SY1000_.jpg",
+    "category": "Infantil"
+  },
+  {
+    "id": "f5",
+    "name": "Fantasia Super Copinha",
+    "price": 129.90,
+    "description": "Uniforme com capa e máscara de super-herói futebol.",
+    "image": "https://img.elo7.com.br/product/zoom/4626731/kit-macacao-do-brasil-unissex-infantil-capa-e-mascara-presente.jpg",
+    "category": "Infantil"
+  },
+  {
+    "id": "f6",
+    "name": "Fantasia Bruxa Infantil",
+    "price": 99.90,
+    "description": "Vestido preto com detalhes roxos e chapéu pontudo.",
+    "image": "https://img.joomcdn.net/d3d0b5a2b2c5b224032475f79622a13d0dec3488_1024_1024.jpeg",
+    "category": "Infantil"
+  },
+  {
+    "id": "a3",
+    "name": "Espada de Pirata",
+    "price": 14.90,
+    "description": "Espada de plástico com detalhes dourados.",
+    "image": "https://images.tcdn.com.br/img/img_prod/388802/espada_ninja_dragao_dourado_de_plastico_72cm_22409_1_f41f9509c1dc9272437a3fe45d007162.jpg",
+    "category": "Acessórios"
+  },
+  {
+    "id": "a4",
+    "name": "Varinha Mágica Brilhante",
+    "price": 12.90,
+    "description": "Varinha com estrela brilhante na ponta.",
+    "image": "https://m.media-amazon.com/images/I/518xhfL0RwL._AC_UF350,350_QL80_.jpg",
+    "category": "Acessórios"
+  },
+  {
+    "id": "f7",
+    "name": "Capa Vampiro Adulto",
+    "price": 139.90,
+    "description": "Capa longa preta de interior vermelho.",
+    "image": "https://ae01.alicdn.com/kf/S6300b587be4f4810b74f54b80a6e68f42.jpg_960x960.jpg",
+    "category": "Adulto"
+  },
+  {
+    "id": "f8",
+    "name": "Fantasia Pirata Adulto",
+    "price": 149.90,
+    "description": "Camisa listrada, colete, faixa vermelha e chapéu de pirata.",
+    "image": "https://dcdn-us.mitiendanube.com/stores/002/388/435/products/10991-207b2f93f9d64189e316739071488584-1024-1024.jpg",
+    "category": "Adulto"
+  },
+  {
+    "id": "f9",
+    "name": "Fantasia Super-Homem Adulto",
+    "price": 179.90,
+    "description": "Fantasia Super-Homem Adulto com capa e logo clássico.",
+    "image": "https://i.ebayimg.com/thumbs/images/g/JU0AAeSwXdloqCFU/s-l1200.webp",
+    "category": "Adulto"
+  }
+]
